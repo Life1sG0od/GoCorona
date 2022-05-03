@@ -110,9 +110,6 @@
     }
   }
   &__body {
-
-    position: relative;
-    z-index: 22;
     padding: 37px 0px;
     display: flex;
     align-items: center;
@@ -128,7 +125,7 @@
     @media (max-width: 768px) {
       padding: 100px 0px 30px;
       justify-content: stretch;
-      position: fixed;
+      position: absolute;
       top: 0;
       left: -100%;
       width: 100%;
